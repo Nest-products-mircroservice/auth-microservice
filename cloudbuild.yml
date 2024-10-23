@@ -16,3 +16,5 @@ steps:
         "push",
         "us-west4-docker.pkg.dev/products-microservices-439002/image-registry/auth-microservice",
       ]
+    options:
+      logging: CLOUD_LOGGING_ONLY
